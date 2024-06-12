@@ -12,8 +12,14 @@ const Header: React.FC = () => {
         <Button color="inherit" component={Link} href="/">
           ホーム
         </Button>
-        <Button color="inherit" component={Link} href="/attendance-management">
+        <Button color="inherit" component={Link} href="/login">
+          ログイン
+        </Button>
+        <Button color="inherit" component={Link} href="/attendance">
           勤怠管理
+        </Button>
+        <Button color="inherit" component={Link} href="/master">
+        管理者用ページ
         </Button>
       </Toolbar>
     </AppBar>

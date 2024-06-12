@@ -8,10 +8,10 @@ const Page: React.FC = () => {
       <nav>
         <ul>
           <li>
-            <Link href="/attendance-management/checkin">出勤</Link>
+            <Link href="/attendance/checkin">出勤</Link>
           </li>
           <li>
-            <Link href="/attendance-management/checkout">退勤</Link>
+            <Link href="/attendance/checkout">退勤</Link>
           </li>
         </ul>
       </nav>
