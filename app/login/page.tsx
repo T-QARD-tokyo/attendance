@@ -4,6 +4,8 @@ import { useForm, SubmitHandler } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 import { useRouter } from "next/navigation";
 import './login.css';
+// import { basePath } from "../../next.config"
+// const BASE_PATH = basePath ? basePath : "";
 
 //型宣言
 type Inputs = {
